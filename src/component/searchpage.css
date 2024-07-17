@@ -1,0 +1,20 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 1rem auto; /* Add some margin for spacing */
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .search-bar input {
+    flex: 1; /* Allow the input to take up most of the space */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-bar input:focus {
+    outline: none; /* Remove the default outline on focus */
+    border-color: #999; /* Change border color on focus for visual feedback */
+  }
+  
